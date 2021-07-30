@@ -1,4 +1,4 @@
 package com.maid.system.service
 
-class SysConfService {
+interface SysConfService {
 }
