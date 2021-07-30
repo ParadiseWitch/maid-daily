@@ -41,6 +41,31 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--mysql-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+        <!--代码生成器 依赖-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+        <!--&lt;!&ndash;Velocity（默认模板引擎）&ndash;&gt;-->
+        <!--<dependency>-->
+        <!--    <groupId>org.apache.velocity</groupId>-->
+        <!--    <artifactId>velocity-engine-core</artifactId>-->
+        <!--    <version>1.7</version>-->
+        <!--</dependency>-->
+
     </dependencies>
 
     <build>
