@@ -1,12 +1,12 @@
-package com.maid.daily
+package com.maid.system
 
 import org.mybatis.spring.annotation.MapperScan
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class MaidDailyApplication
-
+@MapperScan("com.maid.system.mapper")
+class SysApplication
 fun main(args: Array<String>) {
-  runApplication<MaidDailyApplication>(*args)
+  runApplication<SysApplication>(*args)
 }

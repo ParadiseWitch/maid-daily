@@ -1,12 +1,14 @@
 package com.maid.system.model
 
-import lombok.Data
+import java.time.LocalDateTime
 
 
-@Data
-class SysConf {
-  fun main(): String{
-    return ""
-  }
-
-}
+data class SysConf(
+    var code: String,
+    var value: String?,
+    var valType: String?,
+    var model: String?,
+    var desciption: String?,
+    var lastUpdate: LocalDateTime,
+    var createTime: LocalDateTime
+)
