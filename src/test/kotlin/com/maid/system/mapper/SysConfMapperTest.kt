@@ -13,7 +13,7 @@ class SysConfMapperTest {
   @Test
   fun testSelect(){
     println("----- selectAll method test ------")
-    val sysConfs = sysConfMapper.selectList(null)
-    Assertions.assertEquals(1, sysConfs.size)
+    val sysConfs = sysConfMapper.selectById("comic_host")
+    println(sysConfs)
   }
 }
