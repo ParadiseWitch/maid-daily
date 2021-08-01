@@ -6,6 +6,7 @@
     <modules>
         <module>maid-system</module>
         <module>maid-demo</module>
+        <module>maid-nacos</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -80,7 +81,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${project.parent.version}</version>
                 <configuration>
                     <excludes>
                         <exclude>
