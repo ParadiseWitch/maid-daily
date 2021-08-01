@@ -1,6 +1,5 @@
 package com.maid.system.service.impl
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired

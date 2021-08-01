@@ -1,12 +1,11 @@
-package com.maid.daily
+package com.maid.demo
 
-import org.mybatis.spring.annotation.MapperScan
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class MaidDailyApplication
+class MaidDemoApplication
 
 fun main(args: Array<String>) {
-  runApplication<MaidDailyApplication>(*args)
+  runApplication<MaidDemoApplication>(*args)
 }

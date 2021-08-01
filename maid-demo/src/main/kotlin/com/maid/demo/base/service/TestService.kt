@@ -1,4 +1,4 @@
-package com.maid.daily.base.service
+package com.maid.demo.base.service
 
 import org.springframework.stereotype.Service
 
